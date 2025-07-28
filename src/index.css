@@ -2,41 +2,52 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
+/* Portfolio Design System - Dark theme with purple/blue gradients */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 231 39% 6%;
+    --foreground: 240 30% 96%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 231 39% 8%;
+    --card-foreground: 240 30% 96%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 231 39% 8%;
+    --popover-foreground: 240 30% 96%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 262 100% 65%;
+    --primary-foreground: 240 30% 96%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 231 39% 12%;
+    --secondary-foreground: 240 30% 96%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 231 39% 12%;
+    --muted-foreground: 240 10% 65%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 28 100% 60%;
+    --accent-foreground: 231 39% 6%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 240 30% 96%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 231 39% 15%;
+    --input: 231 39% 15%;
+    --ring: 262 100% 65%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
+
+    /* Portfolio specific colors */
+    --portfolio-dark: 231 39% 6%;
+    --portfolio-darker: 230 40% 4%;
+    --portfolio-purple: 262 100% 65%;
+    --portfolio-purple-light: 272 89% 78%;
+    --portfolio-blue: 223 100% 65%;
+    --portfolio-orange: 28 100% 60%;
+    --portfolio-gradient-1: linear-gradient(135deg, hsl(262 100% 65%), hsl(223 100% 65%));
+    --portfolio-gradient-2: linear-gradient(135deg, hsl(272 89% 78%), hsl(262 100% 65%));
+    --portfolio-gradient-3: linear-gradient(135deg, hsl(28 100% 60%), hsl(262 100% 65%));
+    --portfolio-glow: 0 0 30px hsl(262 100% 65% / 0.3);
+    --portfolio-glow-orange: 0 0 30px hsl(28 100% 60% / 0.3);
 
     --sidebar-background: 0 0% 98%;
 
